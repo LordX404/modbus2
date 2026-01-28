@@ -18,6 +18,7 @@ write_regs <addr> <val>: Escreve valores em registradores.
 send_payload <addr> <payload>: Envia um payload (sequência de dados) para um endereço.
 device_id_basic: Lê informações básicas do dispositivo Modbus.
 device_id_extended:Lê informações avançadas do dispositivo Modbus.
+system_info: Lê informações do sistema do dispositivo especificado.
 turn_on <addr>: Liga o dispositivo ou bobina no endereço especificado.
 turn_off <addr>: Desliga o dispositivo ou bobina no endereço especificado.
 modify_register <addr> <value>: Modifica o valor de um registrador.
